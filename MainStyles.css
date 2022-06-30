@@ -1,0 +1,110 @@
+html
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+    background-image: url("flsp.jpg");
+    
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+}
+
+.header
+{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: #1a1a1c;
+    margin-bottom: 1%;
+}
+
+.headerMenu
+{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 3%;
+}
+
+.menuItem
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    padding-right: 6%;
+    padding-left: 6%;
+    border-right: 2px groove #1a1a1c;
+}
+
+.menuLink
+{
+    text-decoration: none;
+    color: #1a1a1c;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.menuLink:hover
+{
+    text-decoration: none;
+    color:antiquewhite;
+    transition: 0.1ms;
+}
+
+.logo
+{
+    border: 3px groove #1a1a1c;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background-image: url("FSM_lg.png");
+    background-size:cover;
+}
+
+.lnk
+{
+    height:100%;
+    width: 7%;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.content
+{
+    width: 30%;
+    height: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5%;
+    margin-top: 1%;
+}
